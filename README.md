@@ -38,11 +38,11 @@ Then select and open ```Lab 08 Linq`.sln```
 
 
 #### Using the Application
-![All Data](https://via.placeholder.com/750x500)
-![Filtered Data](https://via.placeholder.com/750x500)
-![No Duplicates](https://via.placeholder.com/750x500)
-![Revised](https://via.placeholder.com/750x500)
-![LINQ](https://via.placeholder.com/750x500)
+![All Data](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/allHoods.PNG)
+![Filtered Data](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/hoodWithNames.PNG)
+![No Duplicates](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/noDup.PNG)
+![All Queries Together](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/allQueries.PNG)
+![Revised](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/reVised.PNG)
 
 ---
 
