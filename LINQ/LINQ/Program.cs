@@ -17,6 +17,7 @@ namespace LINQ
 
         static void ViewPlaces()
         {
+            //Reading json file and instructions from readings
             string allText = File.ReadAllText("../../../../data.json");
             Example downTown = JsonConvert.DeserializeObject<Example>(allText);
 
@@ -48,9 +49,23 @@ namespace LINQ
             }
 
             Console.WriteLine("These are the hoods with all Queries.");
+            var allQ = downTown.features.Where(a => a.properties.neighborhood.Length > 0)
+                .GroupBy(b => b.properties.neighborhood)
+                .Select(c => c.First());
+            foreach (var hood in allQ)
+            {
+                Console.WriteLine(hood.properties.neighborhood);
+            }
 
 
+            Console.WriteLine("These are the hoods revised.");
+            var newQ = downTown.features.Select(d => d.properties.neighborhood);
+            foreach (var hood in newQ)
+            {
+                Console.WriteLine(hood);
+            }
         }
+
     }
 
 
