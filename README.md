@@ -38,16 +38,16 @@ Then select and open ```Lab 08 Linq`.sln```
 
 
 #### Using the Application
-![All Data](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/allHoods.PNG) <br />
-![Filtered Data](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/hoodWithNames.PNG) <br />
-![No Duplicates](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/noDup.PNG) <br />
-![All Queries Together](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/allQueries.PNG) <br />
-![Revised](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/reVised.PNG) <br />
+## All the data ![All Data](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/allHoods.PNG) <br />
+## Filtered data ![Filtered Data](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/hoodWithNames.PNG) <br />
+## No duplicates ![No Duplicates](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/noDup.PNG) <br />
+## All the queries ![All Queries Together](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/allQueries.PNG) <br />
+## Revised data![Revised](https://github.com/darrikpuetz/Lab08-LINQ/blob/master/Assets/reVised.PNG) <br />
 
 ---
 
 ### Change Log
-1.1: Finished the original version with missing remove word method- 19 OCT 2019  
+1.1: Finished the original version with missing remove word method- 24 OCT 2019  
 
 ### Credit 
 1. [Converting_JSON] https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm
