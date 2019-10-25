@@ -1,76 +1,48 @@
-# Lab 5/6 Zoo
-
+# Lab 8 LINQ Hoods
 *Author: Darrik Puetz*
 
 ----
 
 ## Description
+For this assignment we needed to read a json file and convert it into classes by using the properties that came with the json file. Then we used that data to drill deeper into formatted queries. 
 
-A zoo contains animals, and animals can come in many different shapes and sizes. It is your job to plan and build out what animals that live in the zoo.
-Using UML, diagram what animals the zoo will consist of. Include in each class the properties and behaviors for each animal, as well as the relationships between each animal from it’s base classes. This zoo has the ability to create new animals to put into the zoo based upon what the user inputs as choices.
+Each query builds off of the prior query. You should be chaining.
 
-## What is OOP?
-### Four Pillars
-1. Abstraction
-    - Used to share info in between classes
-	- Classes can not be used to create instances
-	- Can contain abstract methods
-	- Methods need to be called in the parent and overridden in the children
-2. Encapsulation
-    - You want to put something into a container. i.e.(functions, classes, and folders)
-3. Polymorphism
-    - It remembers it's top level even though it was turned into things from that. (vehicle ---> 4 wheel---> car)
-4. Inheritence
-    - Basic method to extend types based on the other types.
-### Five Principles
-1. Single Responsibility Principle
-    - Only having one reason to change as a class.
-2. Open Closed Principle
-    - Open to Extension and closed to modification.
-    - Applying to my classes only certain abstact methods to be used within children.
-3. Liskov Substitution Principle
-    - Writing code cleanly so other developers can use the same class to build off of.
-4. Interface Segregation Principle
-    - Having the ability to use others. Default interfaces are public and abstract.
-    - void DrawScreen(IDrawable[]:terms)
-    - Be specific.
-5. Dependency Inversion Principle
-    - Building your code to be able to use abstract methods to work with.
-    - Using my abstract methods within other classes to change the function. 
-
-### Interfaces
-An interface is the ability to use a method in a specific class. It is the solution to using methods without specifically using abstract inheritance.
-My interfaces are IDestroy and an IHibernate. Both run methods that are defined in the classes that I choose being the MeatEaters class and the Diplosaurus.
+Output all of the neighborhoods in this data list (Final Total: 147 neighborhoods)
+Filter out all the neighborhoods that do not have any names (Final Total: 143)
+Remove the duplicates (Final Total: 39 neighborhoods)
+Rewrite the queries from above and consolidate all into one single query.
+Rewrite at least one of these questions only using the opposing method (example: Use LINQ Query statements instead of LINQ method calls and vice versa.)
 
 
 ### Getting Started
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/darrikpuetz/Lab05-Zoo.git
+$ git clone https://github.com/darrikpuetz/Lab08-LINQ.git
 ```
 
 ### To run the program from Visual Studio:
-Select ```File``` -> ```Open``` -> ```Lab 05 Zoo```
+Select ```File``` -> ```Open``` -> ```Lab 08 Linq```
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the ```Lab 05 Zoo``` directory.
+Double click on the ```Lab 08 Linq``` directory.
 
-Then select and open ```Lab 05 Zoo`.sln```
+Then select and open ```Lab 08 Linq`.sln```
 
 ---
 
 
 ### Visuals
 
-#### Application Start
-![Start](https://via.placeholder.com/750x500)
+
 #### Using the Application
-![Using](https://via.placeholder.com/750x500)
-![Still Using](https://via.placeholder.com/750x500)
-#### Application End
-![Admin](https://via.placeholder.com/750x500)
+![All Data](https://via.placeholder.com/750x500)
+![Filtered Data](https://via.placeholder.com/750x500)
+![No Duplicates](https://via.placeholder.com/750x500)
+![Revised](https://via.placeholder.com/750x500)
+![LINQ](https://via.placeholder.com/750x500)
 
 ---
 
@@ -78,10 +50,8 @@ Then select and open ```Lab 05 Zoo`.sln```
 1.1: Finished the original version with missing remove word method- 19 OCT 2019  
 
 ### Credit 
-1. [System I.O.] https://docs.microsoft.com/en-us/dotnet/standard/io/index
-2. [Stream Writer] https://docs.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=netframework-4.8
-3. [Stream Reader] https://docs.microsoft.com/en-us/dotnet/api/system.io.stringreader?view=netframework-4.8
-4. [Using Stream] https://introprogramming.info/english-intro-csharp-book/read-online/chapter-15-text-files/
+1. [Converting_JSON] https://www.newtonsoft.com/json/help/html/LINQtoJSON.htm
+2. [Serializing] https://www.newtonsoft.com/json/help/html/SerializingJSON.htm
 
 
 
